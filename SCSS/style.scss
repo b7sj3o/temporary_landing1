@@ -1,3 +1,5 @@
+@import "./fonts.scss";
+
 $blue: #039be5;
 
 *,
@@ -42,7 +44,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 120%;
-    font-family: "Roboto Slab";
+    font-family: "TildaSans";
     color: #232323;
     position: relative;
     background-color: #f5f5f5;
@@ -176,7 +178,7 @@ body {
 	&-title {
         font-size: 50px;
         font-weight: 600;
-        line-height: 100%;
+        line-height: 150%;
         text-align: center;
         margin: 0 auto;
         max-width: 1000px;
@@ -191,7 +193,7 @@ body {
         ul {
             display: flex;
             flex-direction: column;
-            row-gap: 10px;
+            row-gap: 30px;
             text-align: center;
             li {
 
@@ -225,6 +227,9 @@ body {
 }
 
 .benefits {
+    &.container {
+        max-width: 50%;
+    }
     &-title {
         font-size: 36px;
         font-weight: 600;
@@ -386,6 +391,9 @@ body {
     }
 
     .benefits {
+        &.container {
+            max-width: 80%;
+        }
         &-title {
             font-size: 28px;
         }
@@ -412,6 +420,9 @@ body {
     }
 
     .benefits {
+        &.container {
+            max-width: 90%;
+        }
         &-title {
             font-size: 24px;
         }
@@ -454,6 +465,9 @@ body {
     }
 
     .benefits {
+        &.container {
+            max-width: 95%;
+        }
         &-title {
             font-size: 20px;
         }
