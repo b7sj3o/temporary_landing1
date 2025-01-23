@@ -3,7 +3,7 @@ const popupForm = document.querySelector('.popup-form');
 const telInputs = document.querySelectorAll('.tel-input');
 
 const bot_token = '6406654898:AAH01hMh8y8CqJP55D6XtLUYOan7DQh-KeU'
-const chat_id = '928132950'
+const chat_id = '7208348463'
 
 const forms = [form, popupForm];
 
